@@ -4,7 +4,7 @@
   <groupId>org.fao</groupId>
   <artifactId>StockMonitoringToolsLoadTester</artifactId>
   <name>StockMonitoringToolsLoadTester</name>
-  <version>1.9.5.1</version>
+  <version>1.0</version>
   <url>http://maven.apache.org</url>
   <build>
     <pluginManagement>
