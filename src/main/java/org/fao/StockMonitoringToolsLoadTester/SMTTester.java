@@ -29,7 +29,7 @@ public class SMTTester
     	Options options = new Options();
     	options.addOption(Utils.createOption("h", "Print this help", false, false));
     	options.addOption(Utils.createOption("endpoint", "Endpoint of the SMT to test", true, true));
-    	options.addOption(Utils.createOption("threads", "The number of threads for each method min=0 max=30, default=5", true, false));
+    	options.addOption(Utils.createOption("threads", "The number of simultaneously threads min=0 max=30, default=5", true, false));
     	options.addOption(Utils.createOption("method", "The method to be tested, can be all|cmsy|elefanga|elefansa|elefan|sbpr|ypr", true, true));
     	options.addOption(Utils.createOption("shinyproxy", "Use this if the application you are testing is running under a ShinyProxy", false, false));
     	options.addOption(Utils.createOption("chromedriver", "Path to the chromedriver executable", true, true));
