@@ -1,6 +1,6 @@
 # StockMonitoringToolLoadTest
 
-This tool provides an easy way to load test the StockMonitoringTools Shiny application using a simple command interface.
+This tool provides an easy way to load test the StockMonitoringTools Shiny application using a simple command line interface.
 
 Running the tool you can test multiple browser windows that interact and run a particular or a random algorithm simultaneously.
 
