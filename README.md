@@ -1,12 +1,12 @@
 # StockMonitoringToolLoadTest
 
-### What it does
-
 This tool provides an easy way to load test the StockMonitoringTools Shiny application using a simple command line interface.
 
-By running the tool you can test multiple browser windows that interact and run a particular or a random algorithm simultaneously.
-
 The application is built on top of *Java8+Selenium.*
+
+### What it does
+
+By running the tool you can test multiple browser windows that interact and run a particular or a random algorithm simultaneously.
 
 *Selenium* needs a driver to simulate webpage interactions and this tool uses the *ChromeDriver* that is not included in this repository because the application does not run in headless mode. Hence the *Chromedriver* needs to match your Chrome/Chromium version. Chromedriver can be downloaded [here](https://chromedriver.chromium.org/downloads).
 
