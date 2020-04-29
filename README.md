@@ -6,7 +6,7 @@ Running the tool you can test multiple browser windows that interact and run a p
 
 The application is built on top of *Java8+Selenium.*
 
-*Selenium* needs a driver to simulate webpage interactions and this tool uses the *ChromeDriver* that is not included in this repository because the application does not run in headless mode, hence the *Chromedriver* needs to match your Chrome/Chromium version.
+*Selenium* needs a driver to simulate webpage interactions and this tool uses the *ChromeDriver* that is not included in this repository because the application does not run in headless mode, hence the *Chromedriver* needs to match your Chrome/Chromium version. Chromedriver can be downloaded [here](https://chromedriver.chromium.org/downloads) 
 
 ### What it does not
 
