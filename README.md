@@ -26,7 +26,7 @@ This tool does not test slow bandwidth connections. To test such scenarios you m
 | **chromedriver**               | Path to your chromedriver executable file.                   |
 | filecmsy                       | The cmsy dataset you want to use for the tests. If not set the tool uses the sample dataset. |
 | fileelefan                     | The elefan dataset you want to use for the tests. If not set the tool uses the sample dataset. |
-| filefishmethods                | The fish methods dataset used in SBPR/YPR methods. If not set the tool uses the sample dataset. |
+| filefishmethods                | The fish methods dataset used for SBPR/YPR methods. If not set the tool uses the sample dataset. |
 
 ### Examples
 
