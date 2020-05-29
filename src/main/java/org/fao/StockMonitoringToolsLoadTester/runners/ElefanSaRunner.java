@@ -53,7 +53,7 @@ public class ElefanSaRunner extends Runner implements Runnable {
         		.withTimeout(Duration.ofSeconds(60))
         		.pollingEvery(Duration.ofMillis(30))
         		.ignoring(NoSuchElementException.class)
-        		.until(ExpectedConditions.presenceOfElementLocated(By.id("elefanGaModule-fileSa")));
+        		.until(ExpectedConditions.presenceOfElementLocated(By.id("elefanSaModule-fileSa")));
         
 
         uploadFile.sendKeys(this.testFile);
@@ -63,7 +63,7 @@ public class ElefanSaRunner extends Runner implements Runnable {
         		.withTimeout(Duration.ofSeconds(60))
         		.pollingEvery(Duration.ofMillis(30))
         		.ignoring(NoSuchElementException.class, ElementClickInterceptedException.class)
-        		.until(ExpectedConditions.elementToBeClickable(By.id("elefanGaModule-go_sa")));
+        		.until(ExpectedConditions.elementToBeClickable(By.id("elefanSaModule-go_sa")));
         
         
         if(runButton.isEnabled()) {

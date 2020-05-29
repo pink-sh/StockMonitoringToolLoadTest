@@ -22,7 +22,7 @@ public class SMTTester
 	
 	private static Integer def_nThreads = 1;
 	
-	private static enum ValidMethods { all, cmsy, elefanga, elefansa, sbpr, ypr }; 
+	private static enum ValidMethods { all, cmsy, elefanga, elefansa, elefan, sbpr, ypr }; 
 	
     public static void main( String[] args ) throws InterruptedException
     {

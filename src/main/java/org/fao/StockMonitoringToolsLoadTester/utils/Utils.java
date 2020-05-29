@@ -88,14 +88,15 @@ public class Utils {
 		
 	public static List<Object> shuffleRunners(Integer number, String endPoint, Boolean shinyproxy, String chromedriver, HashMap<String, String> testFiles) {
 		List<Object> list = new ArrayList<Object>();
-		Random rand = new Random(); 
 		for (int i = 0; i < number; i++) {
-			if (isBetween(rand.nextInt(), 0, 999)) list.add(new CmsyRunner(endPoint, shinyproxy, chromedriver, testFiles.get("cmsy")));
-			else if (isBetween(rand.nextInt(), 1000, 1999)) list.add(new ElefanGaRunner(endPoint, shinyproxy, chromedriver, testFiles.get("elefan")));
-			else if (isBetween(rand.nextInt(), 2000, 2999)) list.add(new ElefanSaRunner(endPoint, shinyproxy, chromedriver, testFiles.get("elefan")));
-			else if (isBetween(rand.nextInt(), 3000, 3999)) list.add(new ElefanRunner(endPoint, shinyproxy, chromedriver, testFiles.get("elefan")));
-			else if (isBetween(rand.nextInt(), 4000, 4999)) list.add(new SbprRunner(endPoint, shinyproxy, chromedriver, testFiles.get("fishmethods")));
-			else if (isBetween(rand.nextInt(), 5000, 5999)) list.add(new YprRunner(endPoint, shinyproxy, chromedriver, testFiles.get("fishmethods")));
+			Random rand = new Random(); 
+			Integer randInt = rand.nextInt(6000);
+			if (isBetween(randInt, 0, 999)) list.add(new CmsyRunner(endPoint, shinyproxy, chromedriver, testFiles.get("cmsy")));
+			else if (isBetween(randInt, 1000, 1999)) list.add(new ElefanGaRunner(endPoint, shinyproxy, chromedriver, testFiles.get("elefan")));
+			else if (isBetween(randInt, 2000, 2999)) list.add(new ElefanSaRunner(endPoint, shinyproxy, chromedriver, testFiles.get("elefan")));
+			else if (isBetween(randInt, 3000, 3999)) list.add(new ElefanRunner(endPoint, shinyproxy, chromedriver, testFiles.get("elefan")));
+			else if (isBetween(randInt, 4000, 4999)) list.add(new SbprRunner(endPoint, shinyproxy, chromedriver, testFiles.get("fishmethods")));
+			else if (isBetween(randInt, 5000, 5999)) list.add(new YprRunner(endPoint, shinyproxy, chromedriver, testFiles.get("fishmethods")));
 		}
 		
 		return list;
